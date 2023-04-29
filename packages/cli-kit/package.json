@@ -1,8 +1,10 @@
 {
   "name": "@ddddurk/cli-kit",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "CLI kit for building beautiful CLIs.",
-  "keywords": [],
+  "keywords": [
+    "cli"
+  ],
   "homepage": "https://github.com/ddddurk/cli-kit",
   "bugs": {
     "url": "https://github.com/ddddurk/cli-kit"
@@ -10,7 +12,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/ddddurk/cli-kit",
-    "directory": "packages/droplet-commander"
+    "directory": "packages/cli-kit"
   },
   "license": "MIT",
   "author": "ddddurk <ddddurk@proton.me>",
