@@ -1,0 +1,39 @@
+{
+  "name": "@ddddurk/cli-kit",
+  "version": "0.0.0",
+  "description": "CLI kit for building beautiful CLIs.",
+  "keywords": [],
+  "homepage": "https://github.com/ddddurk/cli-kit",
+  "bugs": {
+    "url": "https://github.com/ddddurk/cli-kit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ddddurk/cli-kit",
+    "directory": "packages/droplet-commander"
+  },
+  "license": "MIT",
+  "author": "ddddurk <ddddurk@proton.me>",
+  "type": "module",
+  "exports": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "./dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "build:watch": "tsup --watch",
+    "test:typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "chalk": "^5.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.2",
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

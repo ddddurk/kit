@@ -3,11 +3,14 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "build": "pnpm --stream -r build",
+    "build:watch": "pnpm --stream -r build:watch",
     "chore:lint": "pnpm chore:lint:prettier && pnpm chore:lint:eslint",
     "chore:lint:eslint": "eslint --fix './**/*.{js,json,yaml}'",
     "chore:lint:prettier": "prettier --write --plugin-search-dir=. ./",
     "ddddurk": "ddddurk",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "test:typecheck": "pnpm --stream -r test:typecheck"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.6.1",
