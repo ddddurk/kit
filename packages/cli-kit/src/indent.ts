@@ -22,7 +22,9 @@ export const indent = (
           (columns > max ? max : columns) - indent
         ) {
           width = 0;
-          return `\n${space}${word}`;
+          return width === 0
+            ? `${space}${word}`
+            : `\n${space}${word}`;
         } else {
           width += word.length + 1;
           return word;
