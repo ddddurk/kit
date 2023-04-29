@@ -1,5 +1,11 @@
 # @ddddurk/cli-kit
 
+## 1.0.2
+
+### Patch Changes
+
+- 0de3223: Fix indent
+
 ## 1.0.1
 
 ### Patch Changes
