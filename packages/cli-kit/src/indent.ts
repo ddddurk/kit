@@ -8,22 +8,25 @@ export const indent = (
 ) => {
   const { columns } = window();
 
+  max = columns > max ? max : columns;
+
   const space = " ".repeat(spaces);
+
+  const split = text.split("\n");
 
   let width = space.length;
 
   return (
     space +
-    text
-      .split(" ")
-      .map((word) => {
-        if (
-          width + word.length >
-          (columns > max ? max : columns) - indent
-        ) {
+    split
+      .map((word, i) => {
+        if (width + word.length > max - indent) {
           width = 0;
-          return width === 0
-            ? `${space}${word}`
+
+          return i === split.length - 1
+            ? i === 0
+              ? `${word.slice(0, max - indent - 3)}...`
+              : `${space}${word}`
             : `\n${space}${word}`;
         } else {
           width += word.length + 1;
