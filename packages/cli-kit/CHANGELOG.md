@@ -1,5 +1,11 @@
 # @ddddurk/cli-kit
 
+## 1.0.4
+
+### Patch Changes
+
+- fd79575: Fix Indent 3
+
 ## 1.0.3
 
 ### Patch Changes
