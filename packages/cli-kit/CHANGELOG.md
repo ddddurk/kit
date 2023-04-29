@@ -1,5 +1,11 @@
 # @ddddurk/cli-kit
 
+## 1.0.1
+
+### Patch Changes
+
+- e854944: Fix ci:publish scripts
+
 ## 1.0.0
 
 ### Major Changes

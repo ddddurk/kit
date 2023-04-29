@@ -1,6 +1,6 @@
 {
   "name": "@ddddurk/cli-kit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI kit for building beautiful CLIs.",
   "keywords": [
     "cli"
