@@ -2,7 +2,9 @@
   "name": "@ddddurk/cli-kit",
   "version": "1.0.0",
   "description": "CLI kit for building beautiful CLIs.",
-  "keywords": [],
+  "keywords": [
+    "cli"
+  ],
   "homepage": "https://github.com/ddddurk/cli-kit",
   "bugs": {
     "url": "https://github.com/ddddurk/cli-kit"
