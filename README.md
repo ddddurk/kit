@@ -1,1 +1,1 @@
-./packages/cli-kit/README.md
+./packages/kit/README.md

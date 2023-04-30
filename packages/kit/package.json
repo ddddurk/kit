@@ -1,18 +1,18 @@
 {
-  "name": "@ddddurk/cli-kit",
-  "version": "1.0.4",
-  "description": "CLI kit.",
+  "name": "@ddddurk/kit",
+  "version": "0.0.0",
+  "description": "Kit for building CLIs.",
   "keywords": [
     "cli"
   ],
-  "homepage": "https://github.com/ddddurk/cli-kit",
+  "homepage": "https://github.com/ddddurk/kit",
   "bugs": {
-    "url": "https://github.com/ddddurk/cli-kit"
+    "url": "https://github.com/ddddurk/kit"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ddddurk/cli-kit",
-    "directory": "packages/cli-kit"
+    "url": "https://github.com/ddddurk/kit",
+    "directory": "packages/kit"
   },
   "license": "MIT",
   "author": "ddddurk <ddddurk@proton.me>",
