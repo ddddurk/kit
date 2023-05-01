@@ -11,7 +11,10 @@ export const label = (
 
   text = text.slice(0, maxWidth);
 
-  return " ".repeat(maxWidth - text.length) + white
-    ? chalk.bgHex(hex).white.bold(" " + text + " ")
-    : chalk.bgHex(hex).black.bold(" " + text + " ");
+  return (
+    " ".repeat(maxWidth - text.length) +
+    (white
+      ? chalk.bgHex(hex).white.bold(" " + text + " ")
+      : chalk.bgHex(hex).black.bold(" " + text + " "))
+  );
 };
