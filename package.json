@@ -13,7 +13,7 @@
     "ci:publish:snapshot": "pnpm build && changeset publish --tag snapshot",
     "ci:version": "changeset version",
     "ci:version:snapshot": "changeset version --snapshot snapshot",
-    "ddddurk": "ddddurk",
+    "ddddurk": "npx @ddddurk/cli@latest",
     "prepare": "husky install",
     "test:typecheck": "pnpm --stream -r test:typecheck"
   },
@@ -22,7 +22,6 @@
     "@changesets/cli": "^2.26.1",
     "@commitlint/cli": "^17.6.1",
     "@commitlint/config-conventional": "^17.6.1",
-    "@ddddurk/cli": "^0.1.4",
     "@typescript-eslint/eslint-plugin": "^5.59.1",
     "@typescript-eslint/parser": "^5.59.1",
     "eslint": "^8.39.0",
