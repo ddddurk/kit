@@ -1,6 +1,6 @@
 import { stdout } from "process";
 
-import { MARGIN, SPACE } from "../../constants";
+import { MARGIN, SPACE } from "../constants";
 
 export const margin = (
   text: string,
