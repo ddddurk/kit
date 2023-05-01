@@ -1,5 +1,11 @@
 # @ddddurk/kit
 
+## 1.1.1
+
+### Patch Changes
+
+- 4e3fae4: Fix `label` literal
+
 ## 1.1.0
 
 ### Minor Changes
