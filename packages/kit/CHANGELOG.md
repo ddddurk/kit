@@ -1,5 +1,11 @@
 # @ddddurk/kit
 
+## 1.1.2
+
+### Patch Changes
+
+- 43cd8f5: Add `white` to `log` label option
+
 ## 1.1.1
 
 ### Patch Changes
