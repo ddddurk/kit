@@ -1,3 +1,3 @@
 # @ddddurk/kit
 
-Kit for building CLIs.
+@ddddurk/cli
