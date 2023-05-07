@@ -1,5 +1,11 @@
 # @ddddurk/kit
 
+## 1.1.3
+
+### Patch Changes
+
+- 786ae30: Update README.md
+
 ## 1.1.2
 
 ### Patch Changes
