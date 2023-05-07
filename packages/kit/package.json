@@ -1,7 +1,7 @@
 {
   "name": "@ddddurk/kit",
   "version": "1.1.2",
-  "description": "Kit for building CLIs.",
+  "description": "@ddddurk/kit",
   "keywords": [
     "cli"
   ],
